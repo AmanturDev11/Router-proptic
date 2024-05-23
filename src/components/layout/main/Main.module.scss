@@ -1,0 +1,16 @@
+.Main {
+	.content {
+		width: 200px;
+		height: 100vh;
+		// height: 100%;
+		background-color: blue;
+		.cardsContent {
+			.link {
+				// color: white;
+				&.active {
+					color: red;
+				}
+			}
+		}
+	}
+}
