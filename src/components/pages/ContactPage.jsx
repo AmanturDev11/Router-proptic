@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const ContactPage = () => {
 	return (
 		<div>
 			<div className="container">
-				<Content>ContactPage</Content>
+				<Content>
+					ContactPage
+					<Link to="/about">
+						<button>Отмена</button>
+					</Link>
+				</Content>
 			</div>
 		</div>
 	);

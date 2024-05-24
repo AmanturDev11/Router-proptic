@@ -1,8 +1,5 @@
-
 const Ratings = () => {
-  return (
-    <div>Ratings</div>
-  )
-}
+	return <div>Ratings page</div>;
+};
 
-export default Ratings
+export default Ratings;

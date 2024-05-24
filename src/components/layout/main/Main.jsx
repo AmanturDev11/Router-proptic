@@ -15,6 +15,10 @@ const links = [
 		name: "Contact",
 		href: "/contact",
 	},
+	{
+		name: "Schedule",
+		href: "/schedule",
+	},
 ];
 const Main = () => {
 	const location = useLocation();

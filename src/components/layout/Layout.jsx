@@ -6,6 +6,10 @@ import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
 import Main from "./main/Main";
 import styled from "styled-components";
+import Materials from "../pages/materials/Materials";
+import Ratings from "../pages/ratings/Ratings";
+import Students from "../pages/students/Students";
+import Schedule from "../pages/Schedule";
 
 const Layout = () => {
 	return (
@@ -18,6 +22,10 @@ const Layout = () => {
 						<Route path="/" element={<HomePage />} />
 						<Route path="/about" element={<AboutPage />} />
 						<Route path="/contact" element={<ContactPage />} />
+						<Route path="/schedule" element={<Schedule />} />
+						<Route path="/materials" element={<Materials />} />
+						<Route path="/ratings" element={<Ratings />} />
+						<Route path="/students" element={<Students />} />
 					</Routes>
 				</MainForm>
 			</ContentClass>
