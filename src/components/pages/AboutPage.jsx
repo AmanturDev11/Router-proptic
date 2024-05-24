@@ -7,8 +7,10 @@ const AboutPage = () => {
 			<div className="container">
 				<Content>
 					AboutPage
-					<Link to="/">
+					<Link to="/students">
+						{/* <Link to="/"> */}
 						<button>Отмена</button>
+						{/* </Link> */}
 					</Link>
 					{/* <Link to="..">
 						<button style={{backgroundColor: 'red'}}>ADD STUDENT</button>

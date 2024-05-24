@@ -10,6 +10,7 @@ import Materials from "../pages/materials/Materials";
 import Ratings from "../pages/ratings/Ratings";
 import Students from "../pages/students/Students";
 import Schedule from "../pages/Schedule";
+import StudentDetails from "../pages/students/StudentDetails";
 
 const Layout = () => {
 	return (
@@ -26,10 +27,10 @@ const Layout = () => {
 						<Route path="/materials" element={<Materials />} />
 						<Route path="/ratings" element={<Ratings />} />
 						<Route path="/students" element={<Students />} />
+						<Route path="/students/:id" element={<StudentDetails />} />
 					</Routes>
 				</MainForm>
 			</ContentClass>
-			{/* <Hider /> */}
 			<Footer />
 		</div>
 	);
@@ -37,14 +38,9 @@ const Layout = () => {
 
 export default Layout;
 
-// const FLexBox = styled.div`
-// 	display: flex;
-// `;
-
 const MainForm = styled.main`
 	display: flex;
 	justify-content: center;
-	/* align-items: center; */
 `;
 
 const ContentClass = styled.div`
